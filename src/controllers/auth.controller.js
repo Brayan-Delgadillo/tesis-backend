@@ -62,3 +62,7 @@ export const logout = (req, res) => {
     });
     return res.status(200);
 };
+
+export const profile = (req, res) => {
+    res.send("profile")
+}
